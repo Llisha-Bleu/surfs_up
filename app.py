@@ -1,6 +1,7 @@
 # 1. Import Flask
 from flask import Flask
 
+#Set Up the Flask Weather App
 import datetime as dt
 import numpy as np
 import pandas as pd
@@ -12,7 +13,7 @@ from sqlalchemy import create_engine, func
 
 from flask import Flask, jsonify
 
-# Connect to Database
+# Set Up the Database
 engine = create_engine("sqlite:///hawaii.sqlite")
 
 Base = automap_base()
@@ -23,7 +24,7 @@ Station = Base.classes.station
 
 session = Session(engine)
 
-# 2. Create an app
+#Set Up Flask
 app = Flask(__name__)
 
 # 3. Define static routes

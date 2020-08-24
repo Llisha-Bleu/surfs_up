@@ -25,7 +25,7 @@ Using Python, Pandas functions and methods, and SQLAlchemy, the date column of t
 ## Summary of Results
 >The mean temperature for June and December is 75 and 71 degrees Fahrenheit respectively. There is not much of a temperature difference between the two months which is ideal for business. For further analysis I would recommend grouping by station and comparing precipitation and temperature statistics across each station. I would also recommend comparing other months of the season such as January and July.
 
-### Two (2) additional queries to perform to gather more weather data for June and December?
+### Additional queries to perform to gather more weather data for June and December?
 >- A query to get the precipitation Data for the month of June and December.
 >- A query to group Tobs data by Station for the month of June and December.
 > - Lastly, instead of looking at just June and December individually, it would be better to see if the other 10 months have similar statistics. It would be best to plot the temperatures as line plots, to compare them over the course of the year. If all of the other months are between the statistical ranges of June and December, it may be feasible to keep the business open year round. Looking at 2 out of the 12 months is not enough to support a good valuation
